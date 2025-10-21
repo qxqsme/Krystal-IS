@@ -7,4 +7,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Display Commit Message
-        run: 'echo "Successful push! Commit message: ${{ github.event.head_commit.message }} 🚀"'
+        run: 'echo "Successful push! Commit message: ${{ github.event.head_commit.message }} "'
